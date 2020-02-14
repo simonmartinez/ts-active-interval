@@ -1,0 +1,16 @@
+{
+  "name": "active-interval",
+  "version": "0.0.4",
+  "description": "Active Interval - A small tool to make interval which stop when the web browser's document is inactive",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Simon Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.5.4",
+    "typescript": "^3.7.5"
+  }
+}
