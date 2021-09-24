@@ -50,6 +50,6 @@ export class ActiveInterval {
     }
 
     public stopInterval(): void {
-        this.interval.unsubscribe();
+        this.interval?.unsubscribe();
     }
 }
